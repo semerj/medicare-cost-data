@@ -19,3 +19,17 @@ cost_quality <- merge(cost_sub, quality_sub, by.x = "Provider.Id", by.y = "Provi
 ## change column names and classes
 names(cost_quality) <- c('id', 'drg', 'name', 'state', 'avg.payment', 'ami.mort', 'hf.mort', 'pn.mort', 'ami.read', 'hf.read', 'pn.read')
 cost_quality[, c(5:11)] <- apply(cost_quality[, c(5:11)], 2, as.numeric)
+
+## exploratory graphs
+ggplot(cost_quality[grep(to_match[1], cost_quality$drg, ignore.case = T),], aes(x = hf.mort, y = avg.payment)) + 
+  geom_point(alpha = .3) + 
+  facet_grid(~drg) + 
+  ggtitle("Heart Failure")
+ggplot(cost_quality[grep(to_match[2], cost_quality$drg, ignore.case = T),], aes(x = ami.mort, y = avg.payment)) + 
+  geom_point(alpha = .3) + 
+  facet_grid(~drg) + 
+  ggtitle("Hearth Attack")
+ggplot(cost_quality[grep(to_match[3], cost_quality$drg, ignore.case = T),], aes(x = pn.mort, y = avg.payment)) + 
+  geom_point(alpha = .3) + 
+  facet_grid(~drg) + 
+  ggtitle("Pneumonia")
