@@ -1,4 +1,4 @@
-HHS Data Challenge - Improve Healthcare
+CMS Hospital Charge Data Visualization (Challenge #2)
 ==================
 [National Day of Civic Hacking] (http://www.hackforchange.org/challenge/improve-healthcare)
 
