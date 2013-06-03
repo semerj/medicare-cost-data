@@ -7,7 +7,7 @@ Join Heart Failure, Heart Attack, and Pneumonia cost (inpatient charges by DRG) 
 
 Before we begin, you must download/unzip:
 
-1. The latest [CMS Hospital Compare data] (http://www.medicare.gov/Download/DownloadDB.asp) in csv flatfile format 
+1. The latest [CMS Hospital Compare data] (http://www.medicare.gov/Download/DownloadDB.asp) in csv flatfile format. We're only interested in `Outcome of Care Measures.csv`.
 2. The newly released [CMS Inpatient Provider Charge data] (http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Inpatient.html) in csv flatfile format
 
 Data time periods:
