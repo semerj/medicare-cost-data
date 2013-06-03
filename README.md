@@ -15,9 +15,9 @@ Before we begin, you must download/unzip:
 
 **Data time periods:**
 
-* Inpatient cost/charge data are from FY2011 (10/1/2010 - 9/30/2011, I believe)
-* Readmission/mortality data for all three conditions are from 7/1/2008 - 6/30/2011
-* HCAHPS data, specifically top-box scores for *'Overall Hospital Rating'* and *'Recommend the Hospital'* questions, are from 7/1/2010 - 6/30/2011. (May consider averaging results with previous data.) 
+* [Inpatient cost/charge] (http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Inpatient.html) data are from FY2011 (10/1/2010 - 9/30/2011, I believe)
+* [Readmission/mortality] (http://www.medicare.gov/HospitalCompare/Data/RCD/30-day-measures.aspx) data for all three conditions are from 7/1/2008 - 6/30/2011.
+* [HCAHPS] (http://www.medicare.gov/HospitalCompare/Data/PatientSurvey/Overview.aspx) data, specifically top-box scores for *'Overall Hospital Rating'* and *'Recommend the Hospital'* questions, are from 7/1/2010 - 6/30/2011. (May consider averaging results with previous data.) 
 
 **Notes:**
 
