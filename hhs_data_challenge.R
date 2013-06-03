@@ -45,3 +45,7 @@ cost_quality[, c(5:7)] <- apply(cost_quality[, c(5:7)], 2, as.numeric)
 ggplot(cost_quality, aes(x = mortality, y = avg.payment)) + 
   geom_point(alpha = .3) + 
   facet_grid(~cond)
+
+ggplot(cost_quality, aes(x = readmissions, y = avg.payment)) + 
+  geom_point(alpha = .3) + 
+  facet_grid(~cond)
