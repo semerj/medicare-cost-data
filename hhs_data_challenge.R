@@ -19,6 +19,3 @@ cost_quality <- merge(cost_sub, quality_sub, by.x = "Provider.Id", by.y = "Provi
 ## change column names and classes
 names(cost_quality) <- c('id', 'drg', 'name', 'state', 'avg.payment', 'ami.mort', 'hf.mort', 'pn.mort', 'ami.read', 'hf.read', 'pn.read')
 cost_quality[, c(5:11)] <- apply(cost_quality[, c(5:11)], 2, as.numeric)
-
-## exploratory graphs
-ggplot(cost_quality, aes(x = ami.mort, y = avg.payment)) + geom_point() + facet_wrap(~drg)
