@@ -1,5 +1,6 @@
 library(ggplot2)
 
+## make sure .csv files are in the same folder as your working directory
 cost <- read.csv("Medicare_Provider_Charge_Inpatient_DRG100_FY2011.csv", colClasses = "character")
 quality <- read.csv("Outcome of Care Measures.csv", colClasses = "character")
 
