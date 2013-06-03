@@ -1,11 +1,11 @@
-CMS Hospital Charge Data Visualization (Challenge #2)
+CMS Hospital Charge Data Visualization
 ==================
-[National Day of Civic Hacking] (http://www.hackforchange.org/challenge/improve-healthcare)
+Challenge #2 in the **Improve Healthcare** category of [National Day of Civic Hacking] (http://www.hackforchange.org/challenge/improve-healthcare)
 
 
 Goal:
 
-Join Heart Failure, Heart Attack, and Pneumonia cost (inpatient charges by DRG) and quality data (30-day outcomes readmission and deaths) together and generate a rough proxy for value
+Visualize Heart Failure, Heart Attack, and Pneumonia cost (inpatient charges by DRG) vs. quality data (30-day outcomes readmission and deaths), creating a proxy for hospital value.
 
 Before we begin, you must download/unzip:
 
